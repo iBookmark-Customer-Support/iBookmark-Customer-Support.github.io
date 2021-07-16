@@ -1,0 +1,24 @@
+{
+  "name": "ibookmark-customer-support",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server",
+    "build": "npx minify app.js > app.min.js && npx minify style.css > style.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iBookmark-Customer-Support/iBookmark-Customer-Support.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iBookmark-Customer-Support/iBookmark-Customer-Support.github.io/issues"
+  },
+  "homepage": "https://github.com/iBookmark-Customer-Support/iBookmark-Customer-Support.github.io#readme",
+  "dependencies": {
+    "minify": "^7.0.2"
+  }
+}
