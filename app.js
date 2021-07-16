@@ -36,7 +36,7 @@ const postForm = () => {
     return null;
   }
   axios
-    .patch("localhost:3000/api/v1/auth/reset", {
+    .patch("http://localhost:3000/api/v1/auth/reset", {
       password: password,
       passwordRepeat: passwordRepeat,
       token: tkn,
