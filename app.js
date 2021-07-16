@@ -55,8 +55,12 @@ const postForm = () => {
       }
     })
     .catch(function (error) {
-      console.log(error);
-      setError("Token expired or does not exist");
+      if (error.response) {
+        const data = error.response.data;
+        if (data.error) {
+          setError(data.errorMessage);
+        }
+      }
     });
 };
 
