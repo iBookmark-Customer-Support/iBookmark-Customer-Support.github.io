@@ -37,7 +37,7 @@ const postForm = () => {
   }
   axios
     .patch(
-      'http://quick-publi-kk2ke8oi186w-1497683997.ap-south-1.elb.amazonaws.com/api/v1/auth/reset',
+      'http://www.ibookmark.co.in/api/v1/auth/reset',
       {
         password: password,
         passwordRepeat: passwordRepeat,
