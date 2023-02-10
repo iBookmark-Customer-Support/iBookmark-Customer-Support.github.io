@@ -37,7 +37,7 @@ const postForm = () => {
   }
   axios
     .patch(
-      'http://www.ibookmark.co.in/api/v1/auth/reset',
+      'https://www.ibookmark.co.in/api/v1/auth/reset',
       {
         password: password,
         passwordRepeat: passwordRepeat,
